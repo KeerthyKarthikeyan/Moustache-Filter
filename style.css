@@ -1,0 +1,27 @@
+h2{
+ font-size:30px !important;
+ font-family: 'Indie Flower', cursive;
+ box-shadow:3px 3px 3px grey;
+}
+body{
+    background-image:url("moustache.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.btn-success:hover{
+background-color: red;
+}
+
+canvas{
+animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    background-color: white;
+}
+
+@keyframes example{
+from{box-shadow:1px 1px 30px red;}
+to{box-shadow:1px 1px 30px yellow;}
+
+}
